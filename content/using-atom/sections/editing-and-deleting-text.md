@@ -54,17 +54,17 @@ One of the cool things that Atom can do out of the box is support multiple curso
 
 {{/mac}}
 
-Using these commands you can place cursors in multiple places in your document and effectively execute the same commands in multiple places at once.
+Using these commands, you can place cursors in multiple places in your document and effectively execute the same commands in multiple places at once.
 
 ![Using multiple cursors](../../images/multiple-cursors.gif)
 
-This can be incredibly helpful in doing many type of repetitive tasks such as renaming variables or changing the format of some text. You can use this with almost any plugin or command - for example, changing case and moving or duplicating lines.
+This can be incredibly helpful in doing many types of repetitive tasks, such as renaming variables or changing the format of some text. You can use this with almost any plugin or command - for example, changing case and moving or duplicating lines.
 
 You can also use the mouse to select text with the <kbd class="platform-mac">Cmd</kbd><kbd class="platform-windows platform-linux">Ctrl</kbd> key pressed down to select multiple regions of your text simultaneously.
 
 #### Whitespace
 
-Atom comes with several commands to help you manage the whitespace in your document. One very useful pair of commands converts leading spaces into tabs and converts leading tabs into spaces. If you're working with a document that has mixed whitespace, these commands are great for helping to normalize the file. There are no keybindings for the whitespace commands, so you will have to search your command palette for "Convert Spaces to Tabs" (or vice versa) to run one of these commands.
+Atom comes with several commands to help you manage whitespace in your document. One very useful pair of commands converts leading spaces into tabs and converts leading tabs into spaces. If you're working with a document that has mixed whitespace, these commands are great for helping to normalize the file. There are no keybindings for the whitespace commands, so you will have to search your command palette for "Convert Spaces to Tabs" (or vice versa) to run one of these commands.
 
 The whitespace commands are implemented in the [atom/whitespace](https://github.com/atom/whitespace) package. The settings for the whitespace commands are managed on the page for the `whitespace` package.
 
@@ -82,7 +82,7 @@ Atom will also by default ensure that your file has a trailing newline. You can 
 
 Atom ships with intelligent and easy to use bracket handling.
 
-It will by default highlight `[]`, `()`, and `{}` style brackets when your cursor is over them. It will also highlight matching XML and HTML tags.
+It will, by default, highlight `[]`, `()`, and `{}` style brackets when your cursor is over them. It will also highlight matching XML and HTML tags.
 
 Atom will also automatically autocomplete `[]`, `()`, and `{}`, `""`, `''`, `“”`, `‘’`, `«»`, `‹›`, and backticks when you type the leading one. If you have a selection and you type any of these opening brackets or quotes, Atom will enclose the selection with the opening and closing brackets or quotes.
 
